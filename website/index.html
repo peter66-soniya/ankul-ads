@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bala Ji H - Restaurant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#fff8f0;
+}
+
+/* Navbar */
+nav{
+    background:#8B0000;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+/* Hero */
+.hero{
+    height:90vh;
+    background:url('bg.jpg') no-repeat center center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:48px;
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius:10px;
+}
+
+/* Sections */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+h2{
+    color:#8B0000;
+    margin-bottom:20px;
+}
+
+/* Menu */
+.menu-items{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+.gallery-images{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.gallery-images img{
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact{
+    background:#ffe5d9;
+}
+
+/* Footer */
+footer{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h1>Bala Ji H</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Welcome to Bala Ji H Restaurant 🍽</h2>
+</section>
+
+<!-- About -->
+<section>
+    <h2>About Us</h2>
+    <p>
+        Bala Ji H is one of the best restaurants in Mallawan, Hardoi.
+        We serve delicious Indian food with pure taste and quality.
+    </p>
+</section>
+
+<!-- Menu -->
+<section>
+    <h2>Our Special Menu</h2>
+    <div class="menu-items">
+        <div class="card">
+            <h3>Paneer Butter Masala</h3>
+            <p>₹180</p>
+        </div>
+        <div class="card">
+            <h3>Veg Biryani</h3>
+            <p>₹150</p>
+        </div>
+        <div class="card">
+            <h3>Special Thali</h3>
+            <p>₹120</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section>
+    <h2>Our Gallery</h2>
+    <div class="gallery-images">
+        <img src="food.jpg" alt="Food Image 1">
+        <img src="food2.jpg" alt="Food Image 2">
+        <img src="interior.jpg" alt="Restaurant Interior">
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Address: Near B N Inter College, Mallawan, Hardoi</p>
+    <p>📞 Phone: +91 9876543210</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2026 Bala Ji H Restaurant | All Rights Reserved
+</footer>
+
+</body>
+</html>
